@@ -1,0 +1,71 @@
+.row{
+    margin-left: 20px;
+    color:#fff;
+}
+.posters{
+    display: flex;
+    padding: 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-direction: row;
+    transition: 1s;
+
+}
+.poster{
+    max-height:250px ;
+    margin-right: 10px;   
+     transition: 1s;
+     margin-top: 20px;
+     max-width: 350px;
+     border-radius: 10px;
+     
+}
+.posters::-webkit-scrollbar{
+    width: 0;
+
+}
+.poster:hover{
+   
+    transform: scale(1.1);
+    z-index: 2;
+}
+.icon{
+    color: rgb(67,247,76);
+    background-color: black;
+    font-size: 50px;
+    outline: none;
+    border: none;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+.icon:hover{
+    color:black;
+}
+.ti{
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: -10px;
+}
+.smallposter{
+    transition: 1s;
+    max-height: 200px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    max-width: 250px;
+    border-radius: 10px;
+}
+.smallposter:hover{
+   
+    transform: scale(1.1);
+    z-index: 2;
+}
+.tii{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+.fade{
+    height: 9.4rem;
+    background-image: linear-gradient(180deg,transparent,rgba(236, 10, 10, 0.61),rgb(243, 236, 236));
+ 
+}
